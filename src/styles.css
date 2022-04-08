@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+
+body {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.red    { background-color: red; }
+.orange { background-color: orange; }
+.yellow { background-color: yellow; }
+.green  { background-color: green; }
+.blue   { background-color: dodgerblue; }
+.purple { background-color: purple; }
+.brown  { background-color: brown; }
+.black  { background-color: black; }

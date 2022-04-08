@@ -1,0 +1,22 @@
+.color {
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .25s;
+
+  &:hover { border-color: rgba(0, 0, 0, 0.65); }
+  &.active { border-color: black; }
+
+  &.red { background-color: red; }
+  &.orange { background-color: orange; }
+  &.yellow { background-color: yellow; }
+  &.green { background-color: green; }
+  &.blue { background-color: blue; }
+  &.purple { background-color: purple; }
+  &.brown { background-color: brown; }
+  &.black { background-color: black; }
+  &.info { background-image: url(); }
+}
